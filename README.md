@@ -13,4 +13,7 @@ Länkar osv om palmemordet
 
 ## Offentliga Handlingar
 * [SOU - Granskningskommissionens betänkande](http://www.regeringen.se/rattsdokument/statens-offentliga-utredningar/1999/01/sou-199988--/)
-* [Bandet från Länsalarmeringscentralen (LAC-bandet)](https://www.youtube.com/watch?v=1m59M6iAPdM)
+
+## LAC-bandet
+* [Bandet från Länsalarmeringscentralen (LAC-bandet)](https://www.youtube.com/watch?v=1m59M6iAPdM) - Ljud
+* [Utskrift från LAC-bandet](http://www.politiskamord.com/p5lacsamtalen.html)
