@@ -1,4 +1,4 @@
-# palmemordet
+# Palmemordet
 Länkar osv om palmemordet
 
 ## Facebook-grupper
@@ -10,3 +10,6 @@ Länkar osv om palmemordet
 
 ## Christer A
 * [Efterlyst om Christer A](http://www.viafree.se/program/samhalle/efterlyst/sasong-42/avsnitt-4)
+
+## Offentliga Handlingar
+* [SOU - Granskningskommissionens betänkande](http://www.regeringen.se/rattsdokument/statens-offentliga-utredningar/1999/01/sou-199988--/)
