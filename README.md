@@ -17,6 +17,7 @@ Länkar osv om palmemordet. Vill du hjälpa till? Gör en Pull Request på det h
 
 ### Christer Pettersson
 #### Länkar
+* [Videokonfrontationen](https://www.youtube.com/watch?v=Nn7DOBQ_rWY)
 * [Christer Pettersson okända arkiv](http://www.expressen.se/nyheter/christer-petterssons-okanda-arkiv-hittat/)
 * [Christer Pettersson:Wikipedia](https://sv.wikipedia.org/wiki/Christer_Pettersson)
 
