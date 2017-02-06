@@ -2,7 +2,7 @@ var livereloadPort = 33377;
 
 module.exports = function(grunt) {
 
-    // Project configuration.
+    // Plugin configs
     grunt.initConfig({
         pkg: grunt.file.readJSON('package.json'),
         watch: {
@@ -16,10 +16,10 @@ module.exports = function(grunt) {
 
     });
 
-    // Load the plugin that provides the "uglify" task.
+    // Load plugins
     grunt.loadNpmTasks('grunt-contrib-watch');
 
-    // Default task(s).
+    // Tasks
     grunt.registerTask('default', ['watch']);
 
 };
