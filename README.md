@@ -16,6 +16,15 @@ Länkar osv om palmemordet. Vill du hjälpa till? Gör en Pull Request på det h
 ## Misstänkta Gärningsmän
 
 ### Christer Pettersson
+
+#### Rättegången mot Christer
+* [Lisbeth Palmes vittnesmål i tingsrätten](https://www.youtube.com/watch?v=2NE66hMOb5E)
+* [Skandiamannens vittnesmål](https://www.youtube.com/watch?v=caUAUSAKDAw)
+* [Christer Petterssons vittnesmål](https://www.youtube.com/watch?v=kmGslGeYpJ8)
+* Vittnena vid Grand [Del 1](https://www.youtube.com/watch?v=rIUZzW1v-GI) [Del 2](https://www.youtube.com/watch?v=NYiW2Q88y9c)
+* [Åklagarnas slutplädering](https://www.youtube.com/watch?v=jHYTAn2TlUo)
+* Försvarets slutplädering [Del 1](https://www.youtube.com/watch?v=KJvah1h_Xco) [Del 2](https://www.youtube.com/watch?v=1C3BUdYE7ts)
+
 #### Länkar
 * [Dokumentär: Gåtan Christer Pettersson](https://www.youtube.com/watch?v=kVAg3cMbr_4)
 * [Videokonfrontationen](https://www.youtube.com/watch?v=Nn7DOBQ_rWY)
