@@ -1,0 +1,15 @@
+{
+  "name": "palmemordet",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "node devserver.js"
+  },
+  "author": "Mattias Hising - mattias@ridgestreet.se",
+  "license": "MIT",
+  "devDependencies": {
+    "finalhandler": "^0.5.1",
+    "serve-static": "^1.11.2"
+  }
+}
