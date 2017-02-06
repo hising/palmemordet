@@ -10,8 +10,10 @@ Försöker få ihop en tidslinje.
 * 23:21:30 - Två skott avlossas mot Olof och Lisbeth Palme vid Dekorimabutiken vid hörnet Sveavägen och Tunnelgatan.
 * 23:21:45 - GM passerar Lars Jeppsson och Luntmakargatan
 * 23:22:10 - GM når trappkrönet
-* 23:22:20 - "Det är mord på Sveavägen". Första samtalet till larmcentralen.
+* 23:22:20 - "Det är mord på Sveavägen". Första samtalet till larmcentralen. Kopplas till polis, men samtalet går inte fram.
+* 23:23:40 - Växeln på Järfälla Taxi ringer larmcentralen efter att en av deras förare sett någon bli skjuten i hörnet Sveavägen/Tunnelgatan.
 * 23:24 - Första polispatrull på plats?
+* 23:25 - En förbipasserande ambulans stoppas och påbörjar första hjälpen.
 * 23:28 - Ambulans lämnar platsen.
 
 ## Den 1 mars 1986

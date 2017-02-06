@@ -5,7 +5,13 @@
 Länkar osv om palmemordet. Vill du hjälpa till? Gör en Pull Request på det här repot.
 
 ## Böcker
-* ADD
+* [Konspiration Olof Palme : mordet, politikern och hans tysta fiender](http://cdon.se/b%C3%B6cker/gunnar_wall/konspiration_olof_palme_%3a_mordet%2c_politikern_och_h-35434284) Gunnar Wall (2016)
+* [Mordet på Olof Palme : Utredning på villospår](http://cdon.se/e-b%C3%B6cker/thomas-kanger/mordet-p%C3%A5-olof-palme-utredning-p%C3%A5-villosp%C3%A5r-36603627) Thomas Kanger
+* [Mörkläggning : statsmakten och Palmemordet](http://cdon.se/b%C3%B6cker/gunnar_wall/m%C3%B6rkl%C3%A4ggning_%3a_statsmakten_och_palmemordet-37914009) Gunnar Wall (1997)
+* [Nationens fiende : om mordet på Olof Palme](http://cdon.se/b%C3%B6cker/lars_larsson/nationens_fiende_%3a_om_mordet_p%C3%A5_olof_palme-36713641) Lars Larsson (2016)
+* [Offret & gärningsmannen : en essä om mordet på Olof Palme](http://cdon.se/b%C3%B6cker/hans_hederberg/offret_%26_g%C3%A4rningsmannen_%3a_en_ess%C3%A4_om_mordet_p%C3%A5_olo-7642231) Hans Hederberg ()
+* [Olof Palme och Sydafrika : en bok om den sydafrikanska apartheidregimens koppling till mordet på Olof Palme](http://cdon.se/b%C3%B6cker/sten_flygare/olof_palme_och_sydafrika_%3a_en_bok_om_den_sydafrika-35221003) Sten Flygare (2015)
+* [Olof Palme är skjuten!](http://cdon.se/e-b%C3%B6cker/hans-holm%C3%A9r/olof-palme-%C3%A4r-skjuten-36534171) Hans Holmér (1992)
 
 ## Christer A
 * [Efterlyst om Christer A](http://www.viafree.se/program/samhalle/efterlyst/sasong-42/avsnitt-4)
@@ -62,4 +68,3 @@ Länkar osv om palmemordet. Vill du hjälpa till? Gör en Pull Request på det h
 * [Palmemordet på IT-demokrati](http://www.itdemokrati.nu/page36.html) - Scannade förhör etc
 * [Palmemordet.se](http://www.palmemordet.se/) - Överblick över mordet
 * [Palmemordet.eu](http://palmemordet.eu/) - Paul Smith
-
