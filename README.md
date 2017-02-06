@@ -6,6 +6,7 @@ Länkar osv om palmemordet
 * [PALME-RUMMET](https://www.facebook.com/groups/palmerummet/)
 
 ## Online-forum
+* [Flashback-tråden om Palmemordet](https://www.flashback.org/t133416)
 * [Palmemordet Forum](http://palmemordet.forum24.se/)
 
 ## Walkie-Talkie-män
