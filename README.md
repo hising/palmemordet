@@ -15,9 +15,9 @@ Länkar osv om palmemordet. Vill du hjälpa till? Gör en Pull Request på det h
 * [PALME-RUMMET](https://www.facebook.com/groups/palmerummet/)
 
 ## Filmer och TV-serier (Drama)
-* [En Pilgrims Död](http://www.imdb.com/title/tt2602070/)(2013)
-* [Hassel - Privatspanarna](http://www.imdb.com/title/tt2071471/)
-* [Sista Kontraktet](http://www.imdb.com/title/tt0122573/)(1998)
+* [En Pilgrims Död](http://www.imdb.com/title/tt2602070/) (2013)
+* [Hassel - Privatspanarna](http://www.imdb.com/title/tt2071471/) (2012)
+* [Sista Kontraktet](http://www.imdb.com/title/tt0122573/) (1998)
 
 ## LAC-bandet
 * [Bandet från Länsalarmeringscentralen (LAC-bandet)](https://www.youtube.com/watch?v=1m59M6iAPdM) - Ljud
@@ -39,4 +39,10 @@ Länkar osv om palmemordet. Vill du hjälpa till? Gör en Pull Request på det h
 
 ## Walkie-Talkie-män
 * [Skelleftehamnsmannen](http://sverigesradio.se/sida/artikel.aspx?programid=109&artikel=6103013)
+
+## Webbsidor om Palmemordet
+* [Gunnar Walls Blogg](https://gunnarwall.wordpress.com/) - Gunnar Wall
+* [Palmemordet på IT-demokrati](http://www.itdemokrati.nu/page36.html) - Scannade förhör etc
+* [Palmemordet.se](http://www.palmemordet.se/) - Överblick över mordet
+* [Palmemordet.eu](http://palmemordet.eu/) - Paul Smith
 
