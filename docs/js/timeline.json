@@ -60,6 +60,7 @@
       "description": "Lisbeth och Olof Palme anländer till biografen Grand.",
       "sources": []
     },
+
     {
       "time": "1986-02-28 23:15:00",
       "place": ["Biografen Grand", "Sveavägen", "Sveavägen 45", "Sari", " Adolf Fredriks kyrkogata"],
@@ -75,6 +76,7 @@
       "description": "Paret Palme lämnar bion och går söderut på Sveavägen.",
       "sources": []
     },
+
     {
       "time": "1986-02-28 23:19:00",
       "place": ["Thulehuset", "Skandiahuset", "Sveavägen 44"],
@@ -90,6 +92,23 @@
       "sources": [
         "https://sv.wikipedia.org/wiki/Thulehuset,_Sveav%C3%A4gen"
       ]
+    },
+
+    {
+      "time": "1986-02-28 23:21:30",
+      "place": ["Sveavägen", "Tunnelgatan", "Dekorima", "Mordplatsen"],
+      "coords": {
+        "lat": 59.3366,
+        "lng": 18.0628
+      },
+      "uncertainty": 0,
+      "people": [
+        "Olof Palme",
+        "Lisbeth Palme",
+        "Gärningsmannen"
+      ],
+      "description": "Två skott avlossas mot Olof och Lisbeth Palme vid Dekorimabutiken vid hörnet Sveavägen och Tunnelgatan.",
+      "sources": []
     }
   ]
 }
