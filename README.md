@@ -96,6 +96,7 @@ Länkar osv om palmemordet. Vill du hjälpa till? Gör en Pull Request på det h
 
 ## Webbsidor om Palmemordet
 * [Gunnar Walls Blogg](https://gunnarwall.wordpress.com/) - Gunnar Wall
+* [MOP-Arkivet](https://moparkivet.wordpress.com/) - Ett arkiv kring mordet på Olof Palme
 * [Palmemordet på IT-demokrati](http://www.itdemokrati.nu/page36.html) - Scannade förhör etc
 * [Palmemordet.se](http://www.palmemordet.se/) - Överblick över mordet
 * [Palmemordet.eu](http://palmemordet.eu/) - Paul Smith
