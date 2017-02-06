@@ -1,6 +1,6 @@
 # Palmemordet
 
-![Bild från mordplatsen på mordnatten](palmemordet/mordplatsen.jpg)
+![Bild från mordplatsen på mordnatten](http://www.sydsvenskan.se/images/3dI7xtZqbXILuM8kFLSS4Fu9-x0.jpg)
 
 Länkar osv om palmemordet. Vill du hjälpa till? Gör en Pull Request på det här repot.
 
