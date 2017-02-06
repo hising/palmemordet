@@ -14,6 +14,11 @@ Länkar osv om palmemordet. Vill du hjälpa till? Gör en Pull Request på det h
 * [Palmemordet](https://www.facebook.com/palmemordet)
 * [PALME-RUMMET](https://www.facebook.com/groups/palmerummet/)
 
+## Filmer och TV-serier (Drama)
+* [En Pilgrims Död](http://www.imdb.com/title/tt2602070/)(2013)
+* [Hassel - Privatspanarna](http://www.imdb.com/title/tt2071471/)
+* [Sista Kontraktet](http://www.imdb.com/title/tt0122573/)(1998)
+
 ## LAC-bandet
 * [Bandet från Länsalarmeringscentralen (LAC-bandet)](https://www.youtube.com/watch?v=1m59M6iAPdM) - Ljud
 * [Utskrift från LAC-bandet](http://www.politiskamord.com/p5lacsamtalen.html)
