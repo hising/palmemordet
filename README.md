@@ -13,6 +13,9 @@ Länkar osv om palmemordet. Vill du hjälpa till? Gör en Pull Request på det h
 ## Christer Pettersson
 * [Christer Pettersson okända arkiv](http://www.expressen.se/nyheter/christer-petterssons-okanda-arkiv-hittat/)
 
+## Debattartiklar
+* [Den obekväma sanningen om mordet på Olof Palme](http://www.dn.se/debatt/den-obekvama-sanningen-om-mordet-pa-olof-palme/) DN, Ulf Dahlsten
+
 ## Facebook-grupper
 * [Palmemordet](https://www.facebook.com/palmemordet)
 * [PALME-RUMMET](https://www.facebook.com/groups/palmerummet/)
@@ -37,8 +40,16 @@ Länkar osv om palmemordet. Vill du hjälpa till? Gör en Pull Request på det h
 * [Palmemordet by Dan Hörning](https://itunes.apple.com/se/podcast/palmemordet/id1086387447?l=en&mt=2)
 * [Palmemordspodden](http://palme.libsyn.com/)
 
+## Radioprogram
+* [Palmemordet på P3 Dokumentär](http://sverigesradio.se/sida/avsnitt/62082?programid=2519)
+* [Poddspecial om Palmemordet på P3](http://sverigesradio.se/sida/gruppsida.aspx?programid=4072&grupp=22769)
+
 ## TV-program
-* ADD
+* [Fantombilden](https://www.oppetarkiv.se/video/1154340/fantombilden)
+* [Första nyhetssändningen](https://www.oppetarkiv.se/video/1154357/forsta-nyhetssandningen-om-mordet-pa-olof-palme)
+* [Mordvapnet](https://www.oppetarkiv.se/video/1154330/smith-och-wesson-kaliber-357)
+* [SVT Play - 30 år sedan mordet](http://www.svt.se/playtips/olof-palme-30-ar-sedan-mordet/)
+* [TV4 - samlingsida för Palmemordet](http://www.tv4.se/palmemordet)
 
 ## Walkie-Talkie-män
 * [Skelleftehamnsmannen](http://sverigesradio.se/sida/artikel.aspx?programid=109&artikel=6103013)
