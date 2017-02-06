@@ -4,7 +4,12 @@ Försöker få ihop en tidslinje.
 
 ## Den 28 februari 1986
 
+* 20:30 - Paret lämnar hemmet i Gamla Stan.
+* 20:42 - De stiger på ett tåg på T-banestation Gamla Stan
+* 20:47 - Anländer till tunnelbanestationen Rådmansgatan
 * 21:00 - Lisbeth och Olof Palme anländer till biografen Grand.
+* 21:15 - Föreställningen av Bröderna Mozart börjar
+* 23:05 - Föreställningen av Bröderna Mozart slutar. Paret dröjer kvar utanför med Mårten Palme med sambo.
 * 23:15 - Paret Palme lämnar bion och går söderut på Sveavägen.
 * 23:19 - Skandiamannen lämnar Skandia
 * 23:21:30 - Två skott avlossas mot Olof och Lisbeth Palme vid Dekorimabutiken vid hörnet Sveavägen och Tunnelgatan.
