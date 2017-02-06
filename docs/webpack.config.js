@@ -1,11 +1,11 @@
-var debug = process.env.NODE_ENV !== "production";
-var webpack = require('webpack');
+let debug = process.env.NODE_ENV !== 'production';
+let webpack = require('webpack');
 
 module.exports = {
-    entry: './js/palme.js',
+    entry: './js/app.js',
     output: {
         path: __dirname,
-        filename: "bundle.js"
+        filename: 'bundle.js'
     },
     module: {
         loaders: [
@@ -29,8 +29,8 @@ module.exports = {
     ],
     externals: {
         // Use external version of React
-        "react": "React",
-        "react-dom": "ReactDOM"
+        'react': 'React',
+        'react-dom': 'ReactDOM'
     }
 
 };
