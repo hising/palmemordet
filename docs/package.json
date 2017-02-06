@@ -10,6 +10,9 @@
   "license": "MIT",
   "devDependencies": {
     "finalhandler": "^0.5.1",
+    "grunt": "^1.0.1",
+    "grunt-cli": "^1.2.0",
+    "grunt-contrib-watch": "^1.0.0",
     "serve-static": "^1.11.2"
   }
 }
