@@ -13,11 +13,31 @@ Länkar osv om palmemordet. Vill du hjälpa till? Gör en Pull Request på det h
 * [Olof Palme och Sydafrika : en bok om den sydafrikanska apartheidregimens koppling till mordet på Olof Palme](http://cdon.se/b%C3%B6cker/sten_flygare/olof_palme_och_sydafrika_%3a_en_bok_om_den_sydafrika-35221003) Sten Flygare (2015)
 * [Olof Palme är skjuten!](http://cdon.se/e-b%C3%B6cker/hans-holm%C3%A9r/olof-palme-%C3%A4r-skjuten-36534171) Hans Holmér (1992)
 
-## Christer A
-* [Efterlyst om Christer A](http://www.viafree.se/program/samhalle/efterlyst/sasong-42/avsnitt-4)
+## Misstänkta Gärningsmän
 
-## Christer Pettersson
+### Christer Pettersson
+#### Länkar
 * [Christer Pettersson okända arkiv](http://www.expressen.se/nyheter/christer-petterssons-okanda-arkiv-hittat/)
+* [Christer Pettersson:Wikipedia](https://sv.wikipedia.org/wiki/Christer_Pettersson)
+
+### GH - Gärningsmansprofil nr. 8
+
+1. GH var vid tidpunkten för mordet bosatt på bekvämt gångavstånd från mordplatsen.
+2. Han var innehavare av en Smith & Wesson .357 Magnum med sex tums pipa.
+3. Han är en erkänt skicklig skytt.
+4. Han har visat sig ha detaljkunskaper utöver det vanliga om Palme-utredningens olika skeden.
+5. Han har fått minst två kallelser år 1990 men säger sig inte komma ihåg detta.
+6. Hans förklaring om omständigheterna kring försäljningen av vapnet 1992 är föga trovärdig.
+7. Han har uppgivit att han var sängliggande hemma dagarna före, under och efter mordet. Detta motsägs av annan utredning.
+8. Hans utseende, hållning och sätt att röra sig uppvisar förbluffande överensstämmelse med uppgifterna om Olof Palmes baneman.
+
+#### Länkar
+* [Efterlyst om GH](http://www.viafree.se/program/samhalle/efterlyst/sasong-42/avsnitt-4)
+* [Paul Smith om GH](http://palmemordet.eu/palmemordet/mordaren/)
+
+### Victor Gunnarsson
+#### Länkar
+* [Victor Gunnarsson:Wikipedia](https://sv.wikipedia.org/wiki/Victor_Gunnarsson)
 
 ## Debattartiklar
 * [Den obekväma sanningen om mordet på Olof Palme](http://www.dn.se/debatt/den-obekvama-sanningen-om-mordet-pa-olof-palme/) DN, Ulf Dahlsten
