@@ -9,3 +9,8 @@ body {
 .navbar {
     background-color: #e3f2fd;
 }
+
+footer {
+    text-align: center;
+    color: darkgray;
+}
