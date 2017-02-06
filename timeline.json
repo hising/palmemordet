@@ -1,0 +1,18 @@
+{
+  "events": [
+    {
+      "time": "1986-02-28 21:00:00",
+      "coords": {
+        "lat": "",
+        "lng": ""
+      },
+      "uncertainty": 60,
+      "people": [
+        "Olof Palme",
+        "Lisbeth Palme"
+      ],
+      "description": "Lisbeth och Olof Palme anländer till biografen Grand.",
+      "sources": []
+    }
+  ]
+}
