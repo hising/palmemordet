@@ -81,8 +81,9 @@ Länkar osv om palmemordet. Vill du hjälpa till? Gör en Pull Request på det h
 * [Palmemordspodden](http://palme.libsyn.com/)
 
 ## Radioprogram
-* [Palmemordet på P3 Dokumentär](http://sverigesradio.se/sida/avsnitt/62082?programid=2519)
 * [Poddspecial om Palmemordet på P3](http://sverigesradio.se/sida/gruppsida.aspx?programid=4072&grupp=22769)
+* [Palmemordet på P3 Dokumentär](http://sverigesradio.se/sida/avsnitt/62082?programid=2519)
+* [Palmemordet Radio P1 den 1 mars 1992](https://www.youtube.com/watch?v=qc6H_N1Id2k)
 
 ## TV-program
 * [Fantombilden](https://www.oppetarkiv.se/video/1154340/fantombilden)

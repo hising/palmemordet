@@ -2,9 +2,12 @@ body {
     padding-top: 5rem;
 }
 .starter-template {
-    padding: 3rem 1.5rem;
+    padding: 2rem 1.5rem 1em;
     text-align: center;
+    margin-bottom: 1em;
 }
+
+
 
 .navbar {
     background-color: #e3f2fd;
@@ -13,4 +16,9 @@ body {
 footer {
     text-align: center;
     color: darkgray;
+}
+
+#mapid {
+    height: 320px;
+    margin-bottom: 20px;
 }
