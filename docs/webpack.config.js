@@ -4,7 +4,7 @@ var webpack = require('webpack');
 module.exports = {
     entry: './js/palme.js',
     output: {
-        path: __dirname + "/js/dist",
+        path: __dirname,
         filename: "bundle.js"
     },
     module: {
@@ -14,7 +14,7 @@ module.exports = {
                 exclude: /(node_modules|bower_components)/,
                 loader: 'babel-loader',
                 query: {
-                    presets: ['es2015']
+                    presets: ['es2015', 'react']
                 }
             }
         ]
@@ -26,6 +26,11 @@ module.exports = {
             mangle: false,
             sourcemap: false
         }),
-    ]
+    ],
+    externals: {
+        // Use external version of React
+        "react": "React",
+        "react-dom": "ReactDOM"
+    }
 
 };

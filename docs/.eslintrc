@@ -1,0 +1,45 @@
+{
+
+  "parserOptions": {
+    "ecmaVersion": 6,
+    "sourceType": "module",
+    "ecmaFeatures": {
+      "jsx": true
+    }
+  },
+
+  "env": {
+    "node": true,
+    "es6": true,
+    "browser": true
+  },
+
+  "globals": {
+    "document": false,
+    "window": false,
+    "google": false,
+    "$": false,
+    "parseInt": false,
+    "require": false
+  },
+
+  "rules": {
+    "consistent-this": 0,
+    "curly": 2,
+    "key-spacing": 0,
+    "max-depth": [1, 5],
+    "max-nested-callbacks": 0,
+    "max-len": [2, 120, 4],
+    "max-params": [1, 6],
+    "no-multiple-empty-lines": [2, {"max": 1, "maxEOF": 1}],
+    "no-trailing-spaces": [2, {"skipBlankLines": true}],
+    "no-unneeded-ternary": 0,
+    "no-use-before-define": 0,
+    "no-void": 0,
+    "no-var": 2,
+    "no-console": 1,
+    "object-curly-spacing": [2, "never"],
+    "prefer-reflect": 0,
+    "quotes": [2, "single"]
+  }
+}
