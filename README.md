@@ -1,4 +1,7 @@
 # Palmemordet
+
+![Bild från mordplatsen på mordnatten](palmemordet/mordplatsen.jpg)
+
 Länkar osv om palmemordet. Vill du hjälpa till? Gör en Pull Request på det här repot.
 
 ## Böcker
