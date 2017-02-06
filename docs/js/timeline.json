@@ -1,6 +1,51 @@
 {
   "events": [
     {
+      "time": "1986-02-28 20:30:00",
+      "place": ["Gamla Stan", "Västerlånggatan 31"],
+      "coords": {
+        "lat": 59.325042,
+        "lng": 18.069493
+      },
+      "uncertainty": 60,
+      "people": [
+        "Olof Palme",
+        "Lisbeth Palme"
+      ],
+      "description": "Paret lämnar hemmet i Gamla Stan."
+    },
+
+    {
+      "time": "1986-02-28 20:42:00",
+      "place": ["Gamla Stan", "T-banestation Gamla Stan"],
+      "coords": {
+        "lat": 59.32316,
+        "lng": 18.06762
+      },
+      "uncertainty": 60,
+      "people": [
+        "Olof Palme",
+        "Lisbeth Palme"
+      ],
+      "description": "De stiger på ett tåg på T-banestation Gamla Stan"
+    },
+
+    {
+      "time": "1986-02-28 20:47:00",
+      "place": ["Rådmansgatan", "T-banestation Rådmansgatan", "Sveavägen"],
+      "coords": {
+        "lat": 59.340326,
+        "lng": 18.059198
+      },
+      "uncertainty": 60,
+      "people": [
+        "Olof Palme",
+        "Lisbeth Palme"
+      ],
+      "description": "Anländer till tunnelbanestationen Rådmansgatan"
+    },
+
+    {
       "time": "1986-02-28 21:00:00",
       "place": ["Biografen Grand", "Sveavägen 45"],
       "coords": {
