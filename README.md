@@ -15,6 +15,7 @@ Länkar osv om palmemordet. Vill du hjälpa till? Gör en Pull Request på det h
 
 ## Debattartiklar
 * [Den obekväma sanningen om mordet på Olof Palme](http://www.dn.se/debatt/den-obekvama-sanningen-om-mordet-pa-olof-palme/) DN, Ulf Dahlsten
+* [Jag släckte Olof Palme](http://www.expressen.se/debatt/jag-slackte-olof-palme/) Expressen
 
 ## Facebook-grupper
 * [Palmemordet](https://www.facebook.com/palmemordet)
