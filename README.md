@@ -5,6 +5,9 @@ Länkar osv om palmemordet
 * [Palmemordet](https://www.facebook.com/palmemordet)
 * [PALME-RUMMET](https://www.facebook.com/groups/palmerummet/)
 
+## Online-forum
+* [Palmemordet Forum](http://palmemordet.forum24.se/)
+
 ## Walkie-Talkie-män
 * [Skelleftehamnsmannen](http://sverigesradio.se/sida/artikel.aspx?programid=109&artikel=6103013)
 
