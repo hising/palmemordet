@@ -79,3 +79,8 @@ dd:last-child {
     margin-bottom: 0;
     border-bottom: none;
 }
+
+.map-link {
+    font-size: 13px;
+    color: #333;
+}

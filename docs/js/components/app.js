@@ -66,7 +66,7 @@ export const App = React.createClass({
         {people}
         <p>
           <i className="fa fa-map-marker"
-             aria-hidden="true"></i> <a href="#mapid" onClick={() => this.handleClick(event) }>Visa på kartan</a>
+             aria-hidden="true"></i> <a href="#mapid" className="map-link" onClick={() => this.handleClick(event) }>Visa på kartan</a>
         </p>
       </div>
     );
