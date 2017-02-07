@@ -1,31 +1,21 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import {App, Video} from './components';
+import {analytics} from './analytics';
+import {Router, Route, Link, browserHistory} from 'react-router';
 
-import {App} from './components';
-
-(function(window, document, tagName, scriptSource, trackerName){
-
-    window['GoogleAnalyticsObject'] = trackerName;
-
-    window[trackerName] = window[trackerName] || function(){
-        (window[trackerName].q = window[trackerName].q || []).push(arguments);
-    };
-
-    window[trackerName].l = 1 * new Date();
-    let scriptElement = document.createElement(tagName);
-    let scriptCollection = document.getElementsByTagName(tagName)[0];
-    scriptElement.async = 1;
-    scriptElement.src = scriptSource;
-    scriptCollection.parentNode.insertBefore(scriptElement, scriptCollection);
-
-})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-
-ga('create', 'UA-186744-112', 'auto');
-ga('send', 'pageview');
+let routing = (
+  <Router history={browserHistory}>
+    <Route path="/" component={App}>
+      <Route path="video" component={Video}/>
+    </Route>
+  </Router>
+);
 
 document.addEventListener('DOMContentLoaded', function () {
-    const appRoot = document.getElementById('app');
-    if (appRoot) {
-        ReactDOM.render(<App />, appRoot);
-    }
+  const appRoot = document.getElementById('app');
+  if (appRoot) {
+    ReactDOM.render(<App />, appRoot);
+  }
+  analytics.init();
 });
