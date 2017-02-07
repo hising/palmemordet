@@ -6,6 +6,7 @@ export const Map = React.createClass({
     let map = this.map = L.map(ReactDOM.findDOMNode(this), {
       minZoom: 2,
       maxZoom: 19,
+      scrollWheelZoom: false,
       layers: [
         L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
           maxZoom: 19,

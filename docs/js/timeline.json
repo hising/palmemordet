@@ -125,6 +125,21 @@
       ],
       "description": "Gärningsmannen passerar vittnet Lars Jeppsson och Luntmakargatan",
       "sources": []
+    },
+
+    {
+      "time": "1986-02-28 23:22:10",
+      "place": ["Tunnelgatan", "Malmskillnadsgatan", "David Bagares gata"],
+      "coords": {
+        "lat": 59.337098,
+        "lng": 18.064907
+      },
+      "description": "Mördaren når trappkrönet vid korsningen Malmskillnadsgatan och David Bagares gata",
+      "people": [
+        "Gärningsmannen"
+      ],
+      "uncertainty": 0,
+      "sources": []
     }
   ]
 }
