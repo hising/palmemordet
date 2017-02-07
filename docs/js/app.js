@@ -3,10 +3,13 @@ import ReactDOM from 'react-dom';
 import {App, Video} from './components';
 import {analytics} from './analytics';
 import {Router, Route, Link, browserHistory} from 'react-router';
+import {isDev} from "./utils";
+
+let root = isDev ? '/' : '/palmemordet/';
 
 let routing = (
   <Router history={browserHistory}>
-    <Route path="/" component={App}>
+    <Route path={root} component={App}>
       <Route path="video" component={Video}/>
     </Route>
   </Router>
