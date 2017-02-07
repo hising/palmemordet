@@ -21,7 +21,57 @@ footer {
     margin-bottom: 20px;
 }
 
+.people, .places {
+    list-style: none;
+    margin:0;
+    padding:0;
+}
+
 .people li, .places li {
-    color: #ccc;
+    color: #4a5e66;
     font-size: 14px;
+    margin:0;
+    padding:0;
+    display: inline;
+}
+
+.people li:after, .places li:after {
+    content: ", ";
+}
+
+.people li:first-child:after,
+.places li:first-child:after{
+    content: " ";
+}
+
+.people li:last-child:after,
+.places li:last-child:after{
+    content: "";
+}
+
+.people li.header,
+.places li.header {
+    font-weight: bold;
+    color: #000;
+}
+
+dt {
+    font-weight: 200;
+    text-align: right;
+}
+
+dt small {
+    color: #ccc;
+}
+
+dd {
+    border-bottom: 1px solid rgba(0,0,0,.1);
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+}
+
+dd:last-child {
+    padding-bottom: 10px;
+    margin-bottom: 0;
+    border-bottom: none;
 }

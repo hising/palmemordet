@@ -4,26 +4,12 @@ import {Dd, Dt, Map} from './';
 import moment from 'moment';
 
 moment.locale('sv-se');
-
-/*
-moment.updateLocale('sv-se', {
+moment.updateLocale('sv', {
   relativeTime : {
-    future: "in %s",
-    past:   "%s ago",
-    s:  "seconds",
-    m:  "a minute",
-    mm: "%d minutes",
-    h:  "an hour",
-    hh: "%d hours",
-    d:  "a day",
-    dd: "%d days",
-    M:  "a month",
-    MM: "%d months",
-    y:  "a year",
-    yy: "%d years"
+    future: "%s före mordet",
+    past:   "%s efter mordet"
   }
 });
-*/
 
 export const App = React.createClass({
   getInitialState() {
@@ -47,25 +33,28 @@ export const App = React.createClass({
       let i = 0;
       let people = event.people.map(person => {
         i++;
-        return <li key={i} className="list-inline-item">{person}</li>;
+        return <li key={i}>{person}</li>;
       });
-      return <ul className="list-inline people">{people}</ul>;
+      return <ul className="people">
+              <li className="header">Personer:</li>
+              {people}
+             </ul>;
     };
 
     let getPlaces = () => {
       let i = 0;
       let places = event.place.map(place => {
         i++;
-        return <li key={i} className="list-inline-item">{place}</li>;
+        return <li key={i}>{place}</li>;
       });
-      return <ul className="list-inline places">{places}</ul>;
+      return <ul className="places"><li className="header">Platser:</li>{places}</ul>;
     };
 
     let people = event.people.length > 0 ? getPeople() : '';
     let places = event.place.length > 0 ? getPlaces() : '';
     let content = (
       <div>
-        <p>{event.description}</p>
+        <p className="lead">{event.description}</p>
         {places}
         {people}
       </div>
@@ -78,7 +67,7 @@ export const App = React.createClass({
     let diff = moment(event.time).to('1986-02-28 23:21:30');
 
     return (<div>
-      <p>{event.time}</p>
+      {event.time}<br />
       <small>{diff}</small>
     </div>);
   },
