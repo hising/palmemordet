@@ -109,6 +109,22 @@
       ],
       "description": "Två skott avlossas mot Olof och Lisbeth Palme vid Dekorimabutiken vid hörnet Sveavägen och Tunnelgatan.",
       "sources": []
+    },
+
+    {
+      "time": "1986-02-28 23:21:45",
+      "place": ["Tunnelgatan", "Luntmakargatan", "Mordplatsen", "Barackerna"],
+      "coords": {
+        "lat": 59.336874,
+        "lng": 18.063769
+      },
+      "uncertainty": 0,
+      "people": [
+        "Lars Jeppsson",
+        "Gärningsmannen"
+      ],
+      "description": "Gärningsmannen passerar vittnet Lars Jeppsson och Luntmakargatan",
+      "sources": []
     }
   ]
 }

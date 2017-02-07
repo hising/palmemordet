@@ -22,3 +22,8 @@ footer {
     height: 320px;
     margin-bottom: 20px;
 }
+
+.people li, .places li {
+    color: #ccc;
+    font-size: 14px;
+}

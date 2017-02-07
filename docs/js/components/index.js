@@ -2,13 +2,13 @@ import {loadJSON} from '../utils';
 
 export const Dt = React.createClass({
     render() {
-        return (<dt>{this.props.content}</dt>);
+        return (<dt className="col-md-4">{this.props.content}</dt>);
     }
 });
 
 export const Dd = React.createClass({
     render() {
-        return (<dl>{this.props.content}</dl>);
+        return (<dl className="col-md-8">{this.props.content}</dl>);
     }
 });
 
@@ -28,16 +28,51 @@ export const App = React.createClass({
         });
     },
 
+    getEventContent(event) {
+
+        let getPeople = () => {
+            let people = event.people.map(person => {
+                return <li className="list-inline-item">{person}</li>;
+            });
+            return <ul className="list-inline people">{people}</ul>;
+        };
+
+        let getPlaces = () => {
+            let places = event.place.map(place => {
+                return <li className="list-inline-item">{place}</li>;
+            });
+            return <ul className="list-inline places">{places}</ul>;
+        };
+
+        let people = event.people.length > 0 ? getPeople() : '';
+        let places = event.place.length > 0 ? getPlaces() : '';
+        let content = (
+            <div>
+                <p>{event.description}</p>
+                {places}
+                {people}
+            </div>
+        );
+
+        return <Dd content={content} />;
+    },
+
     getTimeline() {
         let items = this.state.timeline.events.map(event => {
-            return [<Dt content={event.time} />, <Dd content={event.description} />]
+            return [<Dt content={event.time} />, this.getEventContent(event)]
         });
 
-        return <dl>{items}</dl>;
+        return <dl className="row">{items}</dl>;
     },
 
     render() {
         let content = this.state.timeline.events ? this.getTimeline() : 'Loading';
-        return (<div>{content}</div>);
+        return (
+            <div>
+                <h2>Tidslinje Palmemordet</h2>
+                <hr />
+                {content}
+            </div>
+        );
     }
 });
