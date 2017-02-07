@@ -27,6 +27,10 @@ footer {
     padding:0;
 }
 
+.people {
+    margin-bottom: 12px;
+}
+
 .people li, .places li {
     color: #4a5e66;
     font-size: 14px;

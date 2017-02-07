@@ -15,7 +15,7 @@ let routing = (
 document.addEventListener('DOMContentLoaded', function () {
   const appRoot = document.getElementById('app');
   if (appRoot) {
-    ReactDOM.render(<App />, appRoot);
+    ReactDOM.render(routing, appRoot);
   }
   analytics.init();
 });

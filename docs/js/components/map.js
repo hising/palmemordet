@@ -1,5 +1,6 @@
 import React from 'react';
 import L from 'leaflet';
+import * as PMO from '../palme';
 
 export const Map = React.createClass({
   componentDidMount: function() {
@@ -14,19 +15,37 @@ export const Map = React.createClass({
         })
       ],
       attributionControl: false,
-    }).setView([59.3366, 18.0628], 18);
+    }).setView(PMO.config.murderSceneCoordsArray, 18);
 
-    L.marker([59.3366, 18.0628]).addTo(map);
+    let marker = this.marker = L.marker([59.3366, 18.0628]).addTo(map);
     map.on('click', this.onMapClick);
 
+    let popup = this.popup = L.popup()
+      .setLatLng(PMO.config.murderSceneCoordsArray)
+      .setContent('<p>Mordplatsen</p>')
+      .openOn(map);
+  },
+
+  setPosition (lat, lng, content) {
+    this.map.panTo([lat, lng]);
+    this.marker.setLatLng([lat, lng]);
+    this.popup
+      .setLatLng([lat, lng])
+      .setContent('<p>' + content + '</p>');
+
+    if (!this.popup.isPopupOpen()) {
+      this.popup.openPopup();
+    }
   },
 
   componentWillUnmount: function() {
     this.map.off('click', this.onMapClick);
     this.map = null;
+    this.marker = null;
   },
 
-  onMapClick: function() {
+  onMapClick: function(event) {
+    // console.log("Clicked", event);
     // Do some wonderful map things...
   },
 

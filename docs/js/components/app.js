@@ -27,6 +27,13 @@ export const App = React.createClass({
     });
   },
 
+  handleClick(event) {
+    if (this.map) {
+      let content = `<p>${event.time} - ${event.description}</p>`;
+      this.map.setPosition(event.coords.lat, event.coords.lng, content);
+    }
+  },
+
   getEventContent(event) {
 
     let getPeople = () => {
@@ -57,6 +64,10 @@ export const App = React.createClass({
         <p className="lead">{event.description}</p>
         {places}
         {people}
+        <p>
+          <i className="fa fa-map-marker"
+             aria-hidden="true"></i> <a href="#mapid" onClick={() => this.handleClick(event) }>Visa på kartan</a>
+        </p>
       </div>
     );
 
@@ -84,7 +95,7 @@ export const App = React.createClass({
     let content = this.state.timeline.events ? this.getTimeline() : 'Loading';
     return (
       <div>
-        <Map />
+        <Map ref={(child) => {this.map = child}}/>
         <h2>Tidslinje Palmemordet</h2>
         <hr />
         {content}
