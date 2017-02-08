@@ -5,13 +5,15 @@ import {analytics} from './analytics';
 import {Router, Route, browserHistory} from 'react-router';
 import {isDev} from './utils';
 
-let root = isDev ? '/' : '/palmemordet/';
+let rootRoute = isDev ? '/' : '/palmemordet/';
+let timelineRoute = rootRoute + 'timeline';
+let videoRoute = rootRoute + 'video';
 
 let routing = (
   <Router history={browserHistory}>
-    <Route path={root} component={App}>
-      <Route path="timeline" component={Timeline}/>
-      <Route path="video" component={Video}/>
+    <Route path={rootRoute} component={App}>
+      <Route path={timelineRoute} component={Timeline}/>
+      <Route path={videoRoute} component={Video}/>
     </Route>
   </Router>
 );
