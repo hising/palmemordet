@@ -17,7 +17,7 @@ export const Map = React.createClass({
       attributionControl: false,
     }).setView(PMO.config.murderSceneCoordsArray, 18);
 
-    let marker = this.marker = L.marker([59.3366, 18.0628]).addTo(map);
+    let marker = this.marker = L.marker(PMO.config.murderSceneCoordsArray).addTo(map);
     map.on('click', this.onMapClick);
 
     let popup = this.popup = L.popup()

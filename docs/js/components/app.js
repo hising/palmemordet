@@ -1,13 +1,14 @@
 import React from 'react';
-import {loadJSON} from '../utils';
+import {loadJSON, getDistanceFromLatLonInKm} from '../utils';
 import {Dd, Dt, Map} from './';
 import moment from 'moment';
+import {config} from "../palme";
 
 moment.locale('sv-se');
 moment.updateLocale('sv', {
   relativeTime : {
-    future: "%s före mordet",
-    past:   "%s efter mordet"
+    future: '%s före mordet',
+    past:   '%s efter mordet'
   }
 });
 
@@ -66,7 +67,9 @@ export const App = React.createClass({
         {people}
         <p>
           <i className="fa fa-map-marker"
-             aria-hidden="true"></i> <a href="#mapid" className="map-link" onClick={() => this.handleClick(event) }>Visa på kartan</a>
+             aria-hidden="true"></i> <a href="#mapid"
+                                        className="map-link"
+                                        onClick={() => this.handleClick(event) }>Visa på kartan</a>
         </p>
       </div>
     );
@@ -74,12 +77,19 @@ export const App = React.createClass({
     return <Dd content={content} />;
   },
 
+  getDistance(coord1, coord2) {
+      return getDistanceFromLatLonInKm(coord1.lat, coord1.lng, coord2.lat, coord2.lng);
+  },
+
   getTimeInfo(event) {
     let diff = moment(event.time).to('1986-02-28 23:21:30');
 
+    let distance = this.getDistance(event.coords, config.murderSceneCoords) * 1000;
+
     return (<div>
       {event.time}<br />
-      <small>{diff}</small>
+      <small>{diff}</small><br/>
+      <small>{distance.toFixed()} meter från mordplatsen</small>
     </div>);
   },
 
