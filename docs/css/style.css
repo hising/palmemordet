@@ -7,6 +7,11 @@ body {
     margin-bottom: 1em;
 }
 
+.starter-template img {
+    display: block;
+    margin-bottom: 20px;
+}
+
 .navbar {
     background-color: #e3f2fd;
 }
