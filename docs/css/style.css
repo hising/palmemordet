@@ -89,3 +89,9 @@ dd:last-child {
     font-size: 13px;
     color: #333;
 }
+
+#newsletter-signup {
+    border-top: 1px solid rgba(0,0,0,.1);
+    padding-top:20px;
+    margin-bottom: 20px;
+}

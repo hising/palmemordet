@@ -1,6 +1,6 @@
 import React from 'react';
 import {loadJSON, getDistanceFromLatLonInKm} from '../utils';
-import {Dd, Dt, Map} from './';
+import {Dd, Dt, Map, Newsletter} from './';
 import moment from 'moment';
 import {config} from '../palme';
 
@@ -109,6 +109,7 @@ export const Timeline = React.createClass({
         <h2>Tidslinje Palmemordet</h2>
         <hr />
         {content}
+        <Newsletter />
       </div>
     );
   }

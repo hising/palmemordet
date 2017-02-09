@@ -1,4 +1,5 @@
 import React from 'react';
+import {Newsletter} from './newsletter';
 
 export const Home = React.createClass({
   render() {
@@ -9,6 +10,9 @@ export const Home = React.createClass({
         <p className="lead">Samlade länkar och resurser om Palmemordet. Baserat på ett otal källor. Målet är att
           bygga upp en strukturerad sökbar databas med tidsstämplar, geokodning och källor. Målet är att
           göra den information som finns tillgänglig mer överblickbar.</p>
+
+        <Newsletter />
+
         <p><a href="https://github.com/hising/palmemordet">Läs mer på Github</a></p>
       </div>
     );
