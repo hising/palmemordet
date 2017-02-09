@@ -140,6 +140,38 @@
       ],
       "uncertainty": 0,
       "sources": []
+    },
+
+    {
+      "time": "1986-02-28 23:22:20",
+      "description": "\"Det är mord på Sveavägen\". Första samtalet till larmcentralen. Kopplas till polis, men samtalet går inte fram.",
+      "people": [
+        "Leif Ljungquist",
+        "Jan Andersson"
+      ],
+      "place": ["Sveavägen", "Mordplatsen", "Tunnelgatan"],
+      "coords": {
+        "lat": 59.3366,
+        "lng": 18.0628
+      },
+      "uncertainty": 0,
+      "sources": []
+    },
+
+    {
+      "time": "1986-02-28 23:23:40",
+      "description": "Växeln på Järfälla Taxi ringer larmcentralen efter att en av deras förare sett någon bli skjuten i hörnet Sveavägen/Tunnelgatan.",
+      "place": ["Sveavägen", "Mordplatsen", "Tunnelgatan"],
+      "coords": {
+        "lat": 59.3366,
+        "lng": 18.0628
+      },
+      "people": [
+        "Anders Delsborn",
+        "Växeltelefonist Järfälla Taxi"
+      ],
+      "uncertainty": 0,
+      "sources": []
     }
   ]
 }
