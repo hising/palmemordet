@@ -155,7 +155,18 @@
         "lng": 18.0628
       },
       "uncertainty": 0,
-      "sources": []
+      "sources": {
+        "it-demokrati": [
+          {
+            "url": "http://www.itdemokrati.nu/page36j.html",
+            "label": "Förhör med Leif Ljungquist"
+          },
+          {
+            "url": "http://www.itdemokrati.nu/page36k.html",
+            "label": "Förhör med Jan Andersson"
+          }
+        ]
+      }
     },
 
     {
@@ -171,7 +182,12 @@
         "Växeltelefonist Järfälla Taxi"
       ],
       "uncertainty": 0,
-      "sources": []
+      "sources": {
+        "it-demokrati": {
+          "url": "http://www.itdemokrati.nu/page36f.html",
+          "label": "Förhör med Anders Delsborn"
+        }
+      }
     }
   ]
 }
