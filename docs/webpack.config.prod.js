@@ -2,13 +2,8 @@ let debug = process.env.NODE_ENV !== 'production';
 let webpack = require('webpack');
 
 module.exports = {
-    devtool: 'eval',
-    entry: [
-        'react-hot-loader/patch',
-        'webpack-dev-server/client?http://localhost:8080',
-        'webpack/hot/only-dev-server',
-        './js/index.js'
-    ],
+    devtool: 'source-map',
+    entry: './js/index.js',
     output: {
         path: __dirname,
         filename: 'bundle.js'
@@ -27,7 +22,6 @@ module.exports = {
         ]
     },
     plugins: debug ? [] : [
-        new webpack.HotModuleReplacementPlugin(),
         new webpack.optimize.DedupePlugin(),
         new webpack.optimize.OccurenceOrderPlugin(),
         new webpack.optimize.UglifyJsPlugin({
@@ -40,10 +34,5 @@ module.exports = {
         'react': 'React',
         'react-dom': 'ReactDOM',
         'leaflet': 'L'
-    },
-    devServer: {
-        hot: true,
-        port: 8080
     }
-
 };

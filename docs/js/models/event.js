@@ -1,4 +1,4 @@
-export class Event {
+export class EventModel {
   constructor(json) {
     this._time = json._time;
     this._place = json._place;

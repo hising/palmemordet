@@ -20,7 +20,7 @@ export const Timeline = React.createClass({
   },
 
   componentDidMount() {
-    loadJSON('js/timeline.json', response => {
+    loadJSON('data/timeline.json', response => {
       let timeline = JSON.parse(response);
       this.setState({
         timeline
