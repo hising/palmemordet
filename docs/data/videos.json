@@ -1,8 +1,40 @@
 {
   "videos": [
     {
+      "name": "Christer Petterssons dubbelgångare",
+      "url": "https://www.youtube.com/watch?v=0k-xD_yJnl0",
+      "thumbnail": "https://img.youtube.com/vi/0k-xD_yJnl0/0.jpg",
+      "description": "Palmemordet med GH (potentiell gärningsman G) från 2011 efterlyst 25 år sen. Christer Petterssons dubbelgångare."
+    },
+    {
       "name": "Skandiamannen på TV",
-      "url": "https://www.youtube.com/watch?v=xE-KsxPJaFU"
+      "url": "https://www.youtube.com/watch?v=xE-KsxPJaFU",
+      "thumbnail": "https://img.youtube.com/vi/xE-KsxPJaFU/0.jpg",
+      "description": "Reportage i Rapport SVT från april 1986 där Stig E (Skandiamannen) uttalar sig om Palmemordet och visar hur gärningsmannen sprang. "
+    },
+    {
+      "name": "Dekorimamannen - Finskorna",
+      "url": "https://www.youtube.com/watch?v=oi_yaf9ThhA",
+      "thumbnail": "https://img.youtube.com/vi/oi_yaf9ThhA/0.jpg",
+      "description": "Bakgrunden till det s.k. finska spåret i palmeutredningen. Från Vem mördade Palme, Polisspåren, TV3 1995."
+    },
+    {
+      "name": "Polisspåren - Del 1 av 3",
+      "url": "https://www.youtube.com/watch?v=7yIj-jb1Na4",
+      "thumbnail": "https://img.youtube.com/vi/7yIj-jb1Na4/0.jpg",
+      "description": ""
+    },
+    {
+      "name": "Polisspåren - Del 2 av 3",
+      "url": "https://www.youtube.com/watch?v=525XSRTntKU",
+      "thumbnail": "https://img.youtube.com/vi/525XSRTntKU/0.jpg",
+      "description": ""
+    },
+    {
+      "name": "Polisspåren - Del 3 av 3",
+      "url": "https://www.youtube.com/watch?v=BKvn09kzn1c",
+      "thumbnail": "https://img.youtube.com/vi/BKvn09kzn1c/0.jpg",
+      "description": ""
     }
   ]
 }
