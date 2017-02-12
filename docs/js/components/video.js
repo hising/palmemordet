@@ -37,7 +37,6 @@ class Video extends Component {
       <div>
         <h2>Videos om Palmemordet</h2>
         {videoListMarkup()}
-
         <Newsletter />
       </div>
     );

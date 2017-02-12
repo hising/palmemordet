@@ -1,6 +1,11 @@
 body {
     padding-top: 5rem;
 }
+
+a {
+    color: crimson;
+}
+
 .starter-template {
     padding: 2rem 1.5rem 1em;
     text-align: center;
@@ -42,6 +47,17 @@ footer {
     margin:0;
     padding:0;
     display: inline;
+}
+
+.links {
+    padding:0 0 0 18px;
+}
+
+.links li {
+    color: #4a5e66;
+    font-size: 14px;
+    margin:0;
+    padding:0;
 }
 
 .people li:after, .places li:after {

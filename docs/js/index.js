@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import {App, Video, Timeline} from './components';
+import {App, Video, Timeline, Place, Person} from './components';
 import {analytics} from './analytics';
 import {Router, Route, hashHistory} from 'react-router';
 
@@ -9,6 +9,8 @@ let routing = (
     <Route path="/" component={App}>
       <Route path="timeline" component={Timeline}/>
       <Route path="video" component={Video}/>
+      <Route path="/place/:placeName" component={Place}/>
+      <Route path="/people/:personName" component={Person}/>
     </Route>
   </Router>
 );

@@ -1,15 +1,15 @@
 export const isDev = location.hostname === 'localhost';
 
 export function loadJSON(file, callback) {
-    let httpRequest = new XMLHttpRequest();
-    httpRequest.overrideMimeType('application/json');
-    httpRequest.open('GET', file, true);
-    httpRequest.onreadystatechange = function () {
-        if (httpRequest.readyState == 4 && httpRequest.status == '200') {
-            callback(httpRequest.responseText);
+    let request = new XMLHttpRequest();
+    request.overrideMimeType('application/json');
+    request.open('GET', file, true);
+    request.onreadystatechange = function () {
+        if (request.readyState == 4 && request.status == '200') {
+          callback(request.responseText);
         }
     };
-    httpRequest.send(null);
+    request.send(null);
 }
 
 export function loadScript(src) {

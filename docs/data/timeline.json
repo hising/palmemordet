@@ -89,9 +89,14 @@
         "Skandiamannen"
       ],
       "description": "Skandiamannen lämnar Skandia",
-      "sources": [
-        "https://sv.wikipedia.org/wiki/Thulehuset,_Sveav%C3%A4gen"
-      ]
+      "sources": {
+        "wikipedia": {
+          "url": "https://sv.wikipedia.org/wiki/Thulehuset,_Sveav%C3%A4gen",
+          "label": "Thulehuset på Wikipedia"
+        }
+      }
+
+
     },
 
     {

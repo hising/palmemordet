@@ -3,6 +3,7 @@ import {loadJSON, getDistanceFromLatLonInKm} from '../utils';
 import {Dd, Dt, Map, Newsletter} from './';
 import moment from 'moment';
 import {config} from '../palme';
+import {Link} from 'react-router';
 
 moment.locale('sv-se');
 moment.updateLocale('sv', {
@@ -12,7 +13,7 @@ moment.updateLocale('sv', {
   }
 });
 
-export const Timeline = React.createClass({
+const Timeline = React.createClass({
   getInitialState() {
     return {
       timeline: {}
@@ -35,13 +36,41 @@ export const Timeline = React.createClass({
     }
   },
 
+  getSources(event) {
+    let links = [];
+    if (event.sources && event.sources.constructor === Object) {
+      for (let property in event.sources) {
+        if (event.sources.hasOwnProperty(property)) {
+          //console.log(event.sources[property]);
+          let source = event.sources[property];
+          if (source.constructor === Object) {
+            links.push(source);
+          } else {
+            links = source;
+          }
+        }
+      }
+    }
+
+    if (links.length > 0) {
+      let items = links.map((link, index) => {
+        return <li key={index}><a href={link.url} target="article">{link.label}</a></li>
+      });
+      return [<h6 key="header">Länkar</h6>, <ul key="list" className="links">{items}</ul>];
+    } else {
+      return null;
+    }
+
+  },
+
   getEventContent(event) {
 
     let getPeople = () => {
       let i = 0;
       let people = event.people.map(person => {
         i++;
-        return <li key={i}>{person}</li>;
+        let url = `/people/${person}`;
+        return <li key={i}><Link to={url}>{person}</Link></li>;
       });
       return <ul className="people">
               <li className="header">Personer:</li>
@@ -53,18 +82,22 @@ export const Timeline = React.createClass({
       let i = 0;
       let places = event.place.map(place => {
         i++;
-        return <li key={i}>{place}</li>;
+        let url = `/place/${place}`;
+        return <li key={i}><Link to={url}>{place}</Link></li>;
       });
       return <ul className="places"><li className="header">Platser:</li>{places}</ul>;
     };
 
     let people = event.people.length > 0 ? getPeople() : '';
     let places = event.place.length > 0 ? getPlaces() : '';
+    let sources = this.getSources(event);
+
     let content = (
       <div>
         <p className="lead">{event.description}</p>
         {places}
         {people}
+        {sources}
         <p>
           <i className="fa fa-map-marker"
              aria-hidden="true"></i> <a href="#mapid"
@@ -114,3 +147,5 @@ export const Timeline = React.createClass({
     );
   }
 });
+
+export default Timeline;
