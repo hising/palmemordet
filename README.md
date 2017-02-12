@@ -6,6 +6,7 @@ Länkar osv om palmemordet. Vill du hjälpa till? Gör en Pull Request på det h
 
 ## Artiklar
 * [Who Murdered Olof Palme?](http://observer.com/2016/11/who-murdered-olof-palme/) - Observer
+* [Olof Palme murder inquiry takes another twist with revoked alibi](https://www.theguardian.com/world/2014/feb/27/olaf-palme-murder-inquiry-revoked-alibi-svenska-dagbladet-stieg-larsson) - The Guardian
 
 ## Böcker
 * [Konspiration Olof Palme : mordet, politikern och hans tysta fiender](http://cdon.se/b%C3%B6cker/gunnar_wall/konspiration_olof_palme_%3a_mordet%2c_politikern_och_h-35434284) Gunnar Wall (2016)
