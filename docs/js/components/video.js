@@ -3,20 +3,26 @@ import { observer } from 'mobx-react';
 import {videoStore} from '../stores';
 import {chunkArray} from "../utils";
 import {Newsletter} from './';
+import {analytics} from '../analytics';
 
 @observer
 class Video extends Component {
 
-  static renderVideoCards(videos) {
+  handleVideoClick(video) {
+    analytics.trackEvent('Video', 'Click', video.name)
+  }
+
+  renderVideoCards(videos) {
     return videos.map((video, index) => {
       return (
-        <div className="card" key={index}>
+        <div className="card video" key={index}>
+          <div className="video-title">{video.name}</div>
+          <a href={video.url}
+             target="video"
+             onClick={() => this.handleVideoClick(video)}>
           <img className="card-img-top img-fluid" src={video.thumbnail} alt="Card image cap" />
-          <div className="card-block">
-            <h4 className="card-title">{video.name}</h4>
-            <p className="card-text">{video.description}</p>
-            <a href={video.url} target="video" className="btn btn-primary">Titta på videon</a>
-          </div>
+            <i className="fa fa-play-circle-o fa-4x" aria-hidden="true"></i>
+          </a>
         </div>
       );
     });
@@ -27,7 +33,7 @@ class Video extends Component {
       return chunkArray(videoStore.videos, 3).map((videos, index) => {
         return (
           <div className="card-deck" key={index}>
-            {Video.renderVideoCards(videos)}
+            {this.renderVideoCards(videos)}
           </div>
         );
       });

@@ -22,9 +22,33 @@ class Analytics {
       })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
 
       ga('create', 'UA-186744-112', 'auto');
-      ga('send', 'pageview');
+
+      this.trackPageview(location.hash.replace('#', ''));
     }
   }
+
+  trackPageview(path) {
+    ga('send', 'pageview', path);
+  }
+
+  trackEvent(category, action, label = null, value = null, nonInteraction = false) {
+    let payload = {
+      eventCategory: category,
+      eventAction: action,
+      nonInteraction
+    };
+
+    if (label) {
+      payload.eventLabel = label;
+    }
+
+    if (value) {
+      payload.eventValue = value;
+    }
+
+    ga('send', 'event', payload);
+  }
+
 }
 
 export const analytics = new Analytics();

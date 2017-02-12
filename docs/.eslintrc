@@ -20,7 +20,8 @@
     "google": false,
     "$": false,
     "parseInt": false,
-    "require": false
+    "require": false,
+    "ga": false
   },
 
   "rules": {

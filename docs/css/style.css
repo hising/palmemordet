@@ -115,3 +115,33 @@ dd:last-child {
 .card {
     margin-bottom: 24px;
 }
+
+.video {
+    position: relative;
+}
+
+.video a {
+    color: #fff;
+}
+
+.video a:hover .fa {
+    opacity: 1;
+}
+
+.video .fa {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0.5;
+}
+
+.video-title {
+    position: absolute;
+    bottom:0;
+    left:0;
+    right:0;
+    background: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    padding:12px;
+}

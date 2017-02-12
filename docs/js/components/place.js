@@ -3,6 +3,10 @@ import { observer } from 'mobx-react';
 
 @observer
 class Place extends Component {
+  componentDidMount() {
+
+  }
+
   render() {
     return (
       <div>
