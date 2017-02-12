@@ -32,14 +32,18 @@ export const App = React.createClass({
   render() {
     return (
     <div>
-      <ul className="nav nav-pills nav-fill justify-content-center">
+      <ul className="nav">
         <li className="nav-item"><NavLink className="nav-link" to="/">Hem</NavLink></li>
         <li className="nav-item"><NavLink className="nav-link" to="timeline">Tidslinje</NavLink></li>
         <li className="nav-item"><NavLink className="nav-link" to="video">Videos</NavLink></li>
       </ul>
-      <div>
-        {this.props.children || <Home />}
+
+      <div className="row">
+        <div className="col-md-12">
+          {this.props.children || <Home />}
+        </div>
       </div>
-    </div>);
+    </div>
+    );
   }
 });

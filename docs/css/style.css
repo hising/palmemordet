@@ -95,3 +95,7 @@ dd:last-child {
     padding-top:20px;
     margin-bottom: 20px;
 }
+
+.card {
+    margin-bottom: 24px;
+}

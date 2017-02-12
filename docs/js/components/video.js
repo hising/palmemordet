@@ -17,7 +17,6 @@ class Video extends Component {
             <a href={video.url} target="video" className="btn btn-primary">Titta på videon</a>
           </div>
         </div>
-
       );
     });
   }
@@ -31,16 +30,12 @@ class Video extends Component {
           </div>
         );
       });
-
     };
 
     return (
       <div>
         <h2>Videos om Palmemordet</h2>
-        <hr />
-
         {videoListMarkup()}
-
       </div>
     );
   }
