@@ -110,5 +110,6 @@ Länkar osv om palmemordet. Vill du hjälpa till? Gör en Pull Request på det h
 * [Palmemordet på IT-demokrati](http://www.itdemokrati.nu/page36.html) - Scannade förhör etc
 * [Palmemordet.se](http://www.palmemordet.se/) - Överblick över mordet
 * [Palmemordet.eu](http://palmemordet.eu/) - Paul Smith
+* [palmeutredningen.blogg.se](http://palmeutredningen.blogg.se/) - "Avslöjande om mordutredningen på statsminister Olof Palme"
 <hr>
 &copy; 2017 - https://hising.github.io/palmemordet/
