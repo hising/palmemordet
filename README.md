@@ -99,6 +99,7 @@ Länkar osv om palmemordet. Vill du hjälpa till? Gör en Pull Request på det h
 * [Palmegruppens pressträff 30 år efter mordet](http://www.svt.se/nyheter/inrikes/palmegruppen-haller-presskonferens)
 * [SVT Play - 30 år sedan mordet](http://www.svt.se/playtips/olof-palme-30-ar-sedan-mordet/)
 * [TV4 - samlingsida för Palmemordet](http://www.tv4.se/palmemordet)
+* [Palmemordet april 1994 Utfrågningen - SVT Norra Magasinet Special](https://www.youtube.com/watch?v=bJQeRUvqdHk)
 
 ## Walkie-Talkie-män
 * [Skelleftehamnsmannen](http://sverigesradio.se/sida/artikel.aspx?programid=109&artikel=6103013)
