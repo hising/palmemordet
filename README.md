@@ -96,6 +96,7 @@ Länkar osv om palmemordet. Vill du hjälpa till? Gör en Pull Request på det h
 * [Fantombilden](https://www.oppetarkiv.se/video/1154340/fantombilden)
 * [Första nyhetssändningen](https://www.oppetarkiv.se/video/1154357/forsta-nyhetssandningen-om-mordet-pa-olof-palme)
 * [Mordvapnet](https://www.oppetarkiv.se/video/1154330/smith-och-wesson-kaliber-357)
+* [Palmegruppens pressträff 30 år efter mordet](http://www.svt.se/nyheter/inrikes/palmegruppen-haller-presskonferens)
 * [SVT Play - 30 år sedan mordet](http://www.svt.se/playtips/olof-palme-30-ar-sedan-mordet/)
 * [TV4 - samlingsida för Palmemordet](http://www.tv4.se/palmemordet)
 
