@@ -1,9 +1,8 @@
-import {isDev} from './utils';
-
+let ga = () => {};
 class Analytics {
 
   init() {
-    if (isDev) {
+
       (function(window, document, tagName, scriptSource, trackerName){
 
         window['GoogleAnalyticsObject'] = trackerName;
@@ -21,10 +20,12 @@ class Analytics {
 
       })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
 
+      ga = window.ga;
+
       ga('create', 'UA-186744-112', 'auto');
 
       this.trackPageview(location.hash.replace('#', ''));
-    }
+
   }
 
   trackPageview(path) {
