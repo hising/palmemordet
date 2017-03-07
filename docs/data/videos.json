@@ -71,6 +71,24 @@
       "url": "https://www.youtube.com/watch?v=T_mXLcMBxOI",
       "thumbnail": "https://img.youtube.com/vi/T_mXLcMBxOI/0.jpg",
       "description": ""
+    },
+    {
+      "name": "Mordet på statsminister Olof Palme - Rekordmagazinet",
+      "url": "https://www.oppetarkiv.se/video/2685601/rekordmagazinet",
+      "thumbnail": "https://www.svt.se/oppet-arkiv-pub/cachable_image/1424700992000/r/article2700163.svt/ALTERNATES/extralarge/timmarna-efter-mordet-jpg",
+      "description": ""
+    },
+    {
+      "name": "Första nyhetssändningen om mordet på Olof Palme",
+      "url": "https://www.oppetarkiv.se/video/1154357/forsta-nyhetssandningen-om-mordet-pa-olof-palme",
+      "thumbnail": "https://www.svt.se/oppet-arkiv-pub/cachable_image/1456501440000/n/article2702728.svt/ALTERNATES/extralarge/olofpalmeforstasandningen-jpg",
+      "description": ""
+    },
+    {
+      "name": "Fantombilden",
+      "url": "https://www.oppetarkiv.se/video/1154340/fantombilden",
+      "thumbnail": "https://www.svt.se/oppet-arkiv-pub/cachable_image/1432812536000/r/article2972956.svt/ALTERNATES/extralarge/fantombilden-jpg",
+      "description": ""
     }
   ]
 }

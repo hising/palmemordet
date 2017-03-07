@@ -6,7 +6,7 @@ export const Home = React.createClass({
     return (
       <div className="starter-template">
         <h1>Palmemordet</h1>
-        <img className="img-fluid d-block mx-auto" src="img/palme.png" />
+        <img className="img-fluid d-block mx-auto" src="img/fantombilden.jpg" />
         <p className="lead">Samlade länkar och resurser om Palmemordet. Baserat på ett otal källor. Målet är att
           bygga upp en strukturerad sökbar databas med tidsstämplar, geokodning och källor. Målet är att
           göra den information som finns tillgänglig mer överblickbar.</p>
