@@ -19,21 +19,21 @@ Länkar osv om palmemordet. Vill du hjälpa till? Gör en Pull Request på det h
 
 ## Misstänkta Gärningsmän
 
-### Christer Pettersson
+### Christer P
 
 #### Rättegången mot Christer
 * [Lisbeth Palmes vittnesmål i tingsrätten](https://www.youtube.com/watch?v=2NE66hMOb5E)
 * [Skandiamannens vittnesmål](https://www.youtube.com/watch?v=caUAUSAKDAw)
-* [Christer Petterssons vittnesmål](https://www.youtube.com/watch?v=kmGslGeYpJ8)
+* [Christer P:s vittnesmål](https://www.youtube.com/watch?v=kmGslGeYpJ8)
 * Vittnena vid Grand [Del 1](https://www.youtube.com/watch?v=rIUZzW1v-GI) [Del 2](https://www.youtube.com/watch?v=NYiW2Q88y9c)
 * [Åklagarnas slutplädering](https://www.youtube.com/watch?v=jHYTAn2TlUo)
 * Försvarets slutplädering [Del 1](https://www.youtube.com/watch?v=KJvah1h_Xco) [Del 2](https://www.youtube.com/watch?v=1C3BUdYE7ts)
 
 #### Länkar
-* [Dokumentär: Gåtan Christer Pettersson](https://www.youtube.com/watch?v=kVAg3cMbr_4)
+* [Dokumentär: Gåtan Christer P](https://www.youtube.com/watch?v=kVAg3cMbr_4)
 * [Videokonfrontationen](https://www.youtube.com/watch?v=Nn7DOBQ_rWY)
-* [Christer Pettersson okända arkiv](http://www.expressen.se/nyheter/christer-petterssons-okanda-arkiv-hittat/)
-* [Christer Pettersson:Wikipedia](https://sv.wikipedia.org/wiki/Christer_Pettersson)
+* [Christer P:s okända arkiv](http://www.expressen.se/nyheter/christer-petterssons-okanda-arkiv-hittat/)
+* [Christer P:Wikipedia](https://sv.wikipedia.org/wiki/Christer_Pettersson)
 
 ### GH - Gärningsmansprofil nr. 8
 
@@ -50,9 +50,9 @@ Länkar osv om palmemordet. Vill du hjälpa till? Gör en Pull Request på det h
 * [Efterlyst om GH](http://www.viafree.se/program/samhalle/efterlyst/sasong-42/avsnitt-4)
 * [Paul Smith om GH](http://palmemordet.eu/palmemordet/mordaren/)
 
-### Victor Gunnarsson
+### Victor G - 33-åringen
 #### Länkar
-* [Victor Gunnarsson:Wikipedia](https://sv.wikipedia.org/wiki/Victor_Gunnarsson)
+* [Victor G:Wikipedia](https://sv.wikipedia.org/wiki/Victor_Gunnarsson)
 
 ## Debattartiklar
 * [Den obekväma sanningen om mordet på Olof Palme](http://www.dn.se/debatt/den-obekvama-sanningen-om-mordet-pa-olof-palme/) DN, Ulf Dahlsten
