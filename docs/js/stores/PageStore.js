@@ -6,7 +6,7 @@ class PageStore {
   @observable currentPage = "";
 
     loadPage(pageName) {
-    let path = `/pages/${pageName}.md`;
+    let path = `pages/${pageName}.md`;
     request
       .get(path)
       .end((err, response) => {
