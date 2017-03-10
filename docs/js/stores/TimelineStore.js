@@ -1,7 +1,6 @@
 import request from 'superagent';
-import {observable} from "mobx";
-import {EventModel} from "../models/event";
-
+import {observable} from 'mobx';
+import {EventModel} from '../models/event';
 
 export class TimelineStore {
   @observable events = [];

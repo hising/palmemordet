@@ -7,6 +7,7 @@ import Video from './video.js';
 import {Newsletter} from './newsletter';
 import Place from './place';
 import Person from './person';
+import Page from './page';
 
 export {
   Dd,
@@ -17,5 +18,6 @@ export {
   App,
   Newsletter,
   Place,
-  Person
+  Person,
+  Page
 };

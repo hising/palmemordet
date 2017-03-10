@@ -1,0 +1,27 @@
+{
+  "name": "palmemordet",
+  "version": "1.0.0",
+  "description": "![Bild från mordplatsen på mordnatten](http://www.sydsvenskan.se/images/3dI7xtZqbXILuM8kFLSS4Fu9-x0.jpg)",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hising/palmemordet.git"
+  },
+  "author": "Mattias Hising, mattias@ridgestreet.se",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/hising/palmemordet/issues"
+  },
+  "homepage": "https://github.com/hising/palmemordet#readme",
+  "dependencies": {
+    "pdf-text-extract": "^1.4.1",
+    "pdf-to-text": "0.0.6",
+    "textract": "^2.1.1"
+  }
+}

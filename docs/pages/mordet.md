@@ -1,4 +1,4 @@
-# Palmemordet
+# Frågor runt Palmemordet
 
 ## Konstigheter
 * Stölden av dokument rörande Harvardärendet samma dag som mordet

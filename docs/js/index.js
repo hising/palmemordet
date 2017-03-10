@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import {App, Video, Timeline, Place, Person} from './components';
+import {App, Video, Timeline, Place, Person, Page} from './components';
 import {analytics} from './analytics';
 import {Router, Route, hashHistory} from 'react-router';
 import {createBrowserHistory} from 'history';
@@ -18,6 +18,7 @@ let routing = (
       <Route path="video" component={Video}/>
       <Route path="/place/:placeName" component={Place}/>
       <Route path="/people/:personName" component={Person}/>
+      <Route path="/page/:pageName" component={Page} />
     </Route>
   </Router>
 );

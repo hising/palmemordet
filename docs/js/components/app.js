@@ -36,6 +36,9 @@ export const App = React.createClass({
         <li className="nav-item"><NavLink className="nav-link" to="/">Hem</NavLink></li>
         <li className="nav-item"><NavLink className="nav-link" to="timeline">Tidslinje</NavLink></li>
         <li className="nav-item"><NavLink className="nav-link" to="video">Videos</NavLink></li>
+        <li className="nav-item"><NavLink className="nav-link" to="/page/tidslinje">Tidslinje i text</NavLink></li>
+        <li className="nav-item"><NavLink className="nav-link" to="/page/mordet">Mordet</NavLink></li>
+        <li className="nav-item"><NavLink className="nav-link" to="/page/links">Länkar</NavLink></li>
       </ul>
 
       <div className="row">
