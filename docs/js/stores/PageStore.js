@@ -3,7 +3,7 @@ import {observable} from 'mobx';
 import marked from 'marked';
 
 class PageStore {
-  @observable currentPage = "";
+  @observable currentPage = '';
 
     loadPage(pageName) {
     let path = `pages/${pageName}.md`;

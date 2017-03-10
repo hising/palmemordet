@@ -145,3 +145,16 @@ dd:last-child {
     color: #fff;
     padding:12px;
 }
+
+img[src$='#img'] {
+    max-width: 100%;
+    height: auto;
+}
+
+.nav {
+    position: relative;
+    padding: 1rem;
+    margin: 1rem -1rem;
+    border: solid #f7f7f9;
+    border-width: .2rem;
+}

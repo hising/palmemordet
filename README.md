@@ -5,7 +5,7 @@
 Länkar osv om palmemordet. Vill du hjälpa till? Gör en Pull Request på det här repot.
 
 ## Artiklar
-* [Who Murdered Olof Palme?](http://observer.com/2016/11/who-murdered-olof-palme/) - Observer
+* [Who Murdered Olof Palme?](http://observer.com/2016/11/who-murdered-olof-palme/#img) - Observer
 * [Olof Palme murder inquiry takes another twist with revoked alibi](https://www.theguardian.com/world/2014/feb/27/olaf-palme-murder-inquiry-revoked-alibi-svenska-dagbladet-stieg-larsson) - The Guardian
 
 ## Böcker
