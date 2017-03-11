@@ -1,8 +1,7 @@
-import React, { Component } from 'react';
-import { observer } from 'mobx-react';
+import React, {Component} from 'react';
+import {observer} from 'mobx-react';
 import {videoStore} from '../stores';
-import {chunkArray} from "../utils";
-import {Newsletter} from './';
+import {chunkArray} from '../utils';
 import {analytics} from '../analytics';
 
 @observer
@@ -43,7 +42,6 @@ class Video extends Component {
       <div>
         <h2>Videos om Palmemordet</h2>
         {videoListMarkup()}
-        <Newsletter />
       </div>
     );
   }

@@ -1,6 +1,7 @@
 import React from 'react';
 import {NavLink} from './navlink';
 import {Home} from './home';
+import {Newsletter} from './newsletter';
 
 /*
 import * as firebase from 'firebase';
@@ -32,20 +33,34 @@ export const App = React.createClass({
   render() {
     return (
     <div>
-      <ul className="nav">
-        <li className="nav-item"><NavLink className="nav-link" to="/">Hem</NavLink></li>
-        <li className="nav-item"><NavLink className="nav-link" to="timeline">Tidslinje</NavLink></li>
-        <li className="nav-item"><NavLink className="nav-link" to="video">Videos</NavLink></li>
-        <li className="nav-item"><NavLink className="nav-link" to="/page/tidslinje">Tidslinje i text</NavLink></li>
-        <li className="nav-item"><NavLink className="nav-link" to="/page/mordet">Mordet</NavLink></li>
-        <li className="nav-item"><NavLink className="nav-link" to="/page/links">Länkar</NavLink></li>
-      </ul>
+      <nav className="navbar navbar-toggleable-md navbar-light fixed-top">
+        <button className="navbar-toggler navbar-toggler-right"
+                type="button" data-toggle="collapse" data-target="#navbarSupportedContent">
+          <span className="navbar-toggler-icon"></span>
+        </button>
+        <a className="navbar-brand" href="">Palmemordet</a>
 
+        <div className="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul className="navbar-nav mr-auto">
+            <li className="nav-item"><NavLink className="nav-link" to="/">Hem</NavLink></li>
+            <li className="nav-item"><NavLink className="nav-link" to="timeline">Tidslinje</NavLink></li>
+            <li className="nav-item"><NavLink className="nav-link" to="video">Videos</NavLink></li>
+            <li className="nav-item"><NavLink className="nav-link" to="/page/tidslinje">Tidslinje i text</NavLink></li>
+            <li className="nav-item"><NavLink className="nav-link" to="/page/mordet">Mordet</NavLink></li>
+            <li className="nav-item"><NavLink className="nav-link" to="/page/links">Länkar</NavLink></li>
+          </ul>
+        </div>
+      </nav>
+    <div className="container">
       <div className="row">
-        <div className="col-md-12">
+        <div className="col-md-8">
           {this.props.children || <Home />}
         </div>
+        <div className="col-md-4">
+          <Newsletter />
+        </div>
       </div>
+    </div>
     </div>
     );
   }
