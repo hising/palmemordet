@@ -83,6 +83,8 @@ Länkar osv om palmemordet. Vill du hjälpa till? Gör en Pull Request på det h
 ## Podcasts
 * [Palmemordet by Dan Hörning](https://itunes.apple.com/se/podcast/palmemordet/id1086387447?l=en&mt=2)
 * [Palmemordspodden](http://palme.libsyn.com/)
+* [Allt du velat veta - Om Palmemordet I med Gunnar Wall](https://www.acast.com/alltduvelatveta/ompalmemordetimedgunnarwall)
+* [Allt du velat veta - Om Palmemordet II med Gunnar Wall](https://www.acast.com/alltduvelatveta/061ompalmemordetiimedgunnarwall)
 
 ## Radioprogram
 * [Poddspecial om Palmemordet på P3](http://sverigesradio.se/sida/gruppsida.aspx?programid=4072&grupp=22769)
