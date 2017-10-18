@@ -1,0 +1,100 @@
+
+<!doctype html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Network | Les miserables</title>
+
+    <style type="text/css">
+        #mynetwork {
+            width: 900px;
+            height: 900px;
+            border: 1px solid lightgray;
+        }
+    </style>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/vis/4.21.0/vis.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/vis/4.21.0/vis.min.css" />
+
+    <script type="text/javascript">
+        function draw() {
+            // create some nodes
+            var nodes = [
+                // Polisspåret
+                {id: 0, "label": "Polisman A", "group": 1},
+                {id: 1, "label": "Polisman B", "group": 1},
+                {id: 2, "label": "Hans Holmér", "group": 1},
+
+                // Socialdemokratin
+                {id: 3, "label": "Ebbe Carlsson", "group": 2},
+                {id: 4, "label": "Ingvar Carlsson", "group": 2},
+                {id: 5, "label": "Anna-Greta Leijon", "group": 2},
+                {id: 6, "label": "Carl Lidbom", "group": 2},
+
+                // Familjen
+                {id: 7, "label": "Lisbeth Palme", "group": 3},
+
+                // Christer Pettersson
+                {id: 8, "label": "Christer Pettersson", "group": 4},
+                {id: 9, "label": "Sigge Cedergren", "group": 4},
+                {id: 10, "label": "Lars Tingström", "group": 4}
+
+            ];
+
+            // create some edges
+            var edges = [
+                {"from": 1, "to": 0},
+                {"from": 2, "to": 0},
+                {"from": 3, "to": 0},
+                {"from": 3, "to": 2},
+                {"from": 3, "to": 4},
+                {"from": 3, "to": 5},
+                {"from": 3, "to": 6},
+                {"from": 4, "to": 2},
+                {"from": 2, "to": 7},
+                {"from": 8, "to": 9},
+                {"from": 8, "to": 10},
+                {"from": 7, "to": 8}
+            ];
+
+            // create a network
+            var container = document.getElementById('mynetwork');
+            var data = {
+                nodes: nodes,
+                edges: edges
+            };
+            var options = {
+                nodes: {
+                    shape: 'dot',
+                    size: 16
+                },
+                physics: {
+                    forceAtlas2Based: {
+                        gravitationalConstant: -26,
+                        centralGravity: 0.005,
+                        springLength: 230,
+                        springConstant: 0.18
+                    },
+                    maxVelocity: 146,
+                    solver: 'forceAtlas2Based',
+                    timestep: 0.35,
+                    stabilization: {iterations: 150}
+                }
+            };
+            var network = new vis.Network(container, data, options);
+
+        }
+    </script>
+
+</head>
+
+<body onload="draw()">
+<p>
+    Relations between the characters of "Les miserables".
+</p>
+
+<div id="mynetwork"></div>
+</body>
+</html>
+
+
