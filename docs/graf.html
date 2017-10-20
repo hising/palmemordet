@@ -37,7 +37,16 @@
                 // Polisspåret
                 {id: 0, "label": "Polisman A", "group": 1},
                 {id: 1, "label": "Polisman B", "group": 1},
+                {id: 28, "label": "Polisman C", "group": 1},
+                {id: 15, "label": "Polisman D", "group": 1},
                 {id: 2, "label": "Hans Holmér", "group": 1},
+                {id: 17, "label": "Göran S", "group": 1},
+                {id: 18, "label": "Thord A", "group": 1},
+                {id: 20, "label": "Per H", "group": 1},
+                {id: 22, "label": "Klas A", "group": 1},
+                {id: 25, "label": "Löjtnant X", "group": 1},
+                {id: 26, "label": "Per K", "group": 1},
+                {id: 27, "label": "Per J", "group": 1},
 
                 // Socialdemokratin
                 {id: 3, "label": "Ebbe Carlsson", "group": 2},
@@ -51,7 +60,24 @@
                 // Christer Pettersson
                 {id: 8, "label": "Christer Pettersson", "group": 4},
                 {id: 9, "label": "Sigge Cedergren", "group": 4},
-                {id: 10, "label": "Lars Tingström", "group": 4}
+                {id: 10, "label": "Lars Tingström", "group": 4},
+
+                // Åklagare och Utredare
+                {id: 11, "label": "Jörgen Almblad", "group": 5},
+                {id: 12, "label": "K-G Svensson", "group": 5},
+                {id: 13, "label": "Claes Zeime", "group": 5},
+                {id: 14, "label": "Axel Morath", "group": 5},
+                {id: 21, "label": "Vincent Lange", "group": 5},
+
+                // SÄPO
+                {id: 16, "label": "Per-Göran Näss", "group": 6},
+                {id: 24, "label": "Jan S", "group": 6},
+
+                // FMV
+                {id: 19, "label": " Per A", "group": 7},
+
+                // Enstaka individer
+                {id: 23, "label": " Ove M", "group": 8},
 
             ];
 
@@ -68,7 +94,35 @@
                 {"from": 2, "to": 7},
                 {"from": 8, "to": 9},
                 {"from": 8, "to": 10},
-                {"from": 7, "to": 8}
+                {"from": 7, "to": 8},
+                {"from": 2, "to": 11},
+                {"from": 2, "to": 12},
+                {"from": 2, "to": 13},
+                {"from": 2, "to": 14},
+                {"from": 11, "to": 8},
+                {"from": 12, "to": 15},
+                {"from": 0, "to": 15},
+                {"from": 1, "to": 15},
+                {"from": 2, "to": 15},
+                {"from": 0, "to": 16},
+                {"from": 0, "to": 17},
+                {"from": 0, "to": 18},
+                {"from": 0, "to": 19},
+                {"from": 0, "to": 20},
+                {"from": 17, "to": 20},
+                {"from": 19, "to": 21},
+                {"from": 0, "to": 22},
+                {"from": 0, "to": 23},
+                {"from": 0, "to": 24},
+                {"from": 16, "to": 24},
+                {"from": 0, "to": 25},
+                {"from": 2, "to": 21},
+                {"from": 0, "to": 26},
+                {"from": 0, "to": 27},
+                {"from": 3, "to": 26},
+                {"from": 3, "to": 27},
+                {"from": 0, "to": 28},
+                {"from": 16, "to": 28},
             ];
 
             // create a network
