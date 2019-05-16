@@ -3,7 +3,7 @@
 <html>
 <head>
     <meta charset="UTF-8">
-    <title>Network | Les miserables</title>
+    <title>Network | Palmemordet</title>
 
     <style type="text/css">
         #mynetwork {
@@ -47,15 +47,20 @@
                 {id: 25, "label": "Löjtnant X", "group": 1},
                 {id: 26, "label": "Per K", "group": 1},
                 {id: 27, "label": "Per J", "group": 1},
+                {id: 34, "label": "PG Vinge", "group": 1},
+                {id: 41, "label": "Carl Persson", "group": 1},
 
                 // Socialdemokratin
                 {id: 3, "label": "Ebbe Carlsson", "group": 2},
                 {id: 4, "label": "Ingvar Carlsson", "group": 2},
                 {id: 5, "label": "Anna-Greta Leijon", "group": 2},
                 {id: 6, "label": "Carl Lidbom", "group": 2},
+                {id: 42, "label": "Sven Aspling", "group": 2},
 
                 // Familjen
                 {id: 7, "label": "Lisbeth Palme", "group": 3},
+                {id: 39, "label": "Mårten Palme", "group": 3},
+                {id: 40, "label": "Olof Palme", "group": 3},
 
                 // Christer Pettersson
                 {id: 8, "label": "Christer Pettersson", "group": 4},
@@ -78,6 +83,24 @@
 
                 // Enstaka individer
                 {id: 23, "label": " Ove M", "group": 8},
+
+                // Victor G
+                {id: 29, "label": "Victor G", "group": 9},
+                {id: 30, "label": "Ivan von B", "group": 9},
+                {id: 31, "label": "Alf K", "group": 9},
+                {id: 32, "label": "K-G Olsson", "group": 9},
+                {id: 33, "label": "Gösta W", "group": 9},
+
+                // Stay Behind
+                {id: 35, "label": "Barbro S", "group": 10},
+                {id: 36, "label": "Alvar Lindencrona", "group": 10},
+                {id: 37, "label": "Curt-Steffen Giesecke", "group": 10},
+                {id: 38, "label": "Ingrid Klering", "group": 10},
+                {id: 45, "label": "William Colby", "group": 10},
+
+                // Skandiamannen
+                {id: 43, "label": "Stig E", "group": 11},
+                {id: 44, "label": "Vapensamlaren", "group": 11},
 
             ];
 
@@ -123,6 +146,28 @@
                 {"from": 3, "to": 27},
                 {"from": 0, "to": 28},
                 {"from": 16, "to": 28},
+                {"from": 29, "to": 30},
+                {"from": 30, "to": 31},
+                {"from": 31, "to": 34},
+                {"from": 2, "to": 31},
+                {"from": 37, "to": 34},
+                {"from": 38, "to": 39},
+                {"from": 7, "to": 39},
+                {"from": 7, "to": 40},
+                {"from": 3, "to": 40},
+                {"from": 4, "to": 40},
+                {"from": 5, "to": 40},
+                {"from": 6, "to": 40},
+                {"from": 38, "to": 35},
+                {"from": 30, "to": 32},
+                {"from": 41, "to": 36},
+                {"from": 41, "to": 34},
+                {"from": 42, "to": 36},
+                {"from": 42, "to": 37},
+                {"from": 42, "to": 40},
+                {"from": 43, "to": 36},
+                {"from": 43, "to": 44},
+                {"from": 45, "to": 42},
             ];
 
             // create a network
@@ -134,7 +179,7 @@
             var options = {
                 nodes: {
                     shape: 'dot',
-                    size: 16
+                    size: 12
                 },
                 physics: {
                     forceAtlas2Based: {
@@ -146,7 +191,7 @@
                     maxVelocity: 146,
                     solver: 'forceAtlas2Based',
                     timestep: 0.35,
-                    stabilization: {iterations: 150}
+                    stabilization: {iterations: 500}
                 }
             };
             var network = new vis.Network(container, data, options);
@@ -158,7 +203,7 @@
 
 <body onload="draw()">
 <p>
-    Relations between the characters of "Les miserables".
+    Palmemordet nätverk
 </p>
 
 <div id="mynetwork"></div>
