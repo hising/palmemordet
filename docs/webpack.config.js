@@ -2,7 +2,7 @@ let debug = process.env.NODE_ENV !== 'production';
 let webpack = require('webpack');
 
 module.exports = {
-    devtool: 'eval',
+    devtool: 'source-map',
     entry: [
         'react-hot-loader/patch',
         'webpack-dev-server/client?http://localhost:8080',
@@ -14,15 +14,11 @@ module.exports = {
         filename: 'bundle.js'
     },
     module: {
-        loaders: [
+        rules: [
             {
                 test: /\.js$/,
                 exclude: /(node_modules|bower_components)/,
-                loader: 'babel-loader',
-                query: {
-                    presets: ['es2015', 'react', 'stage-1'],
-                    plugins: ['transform-decorators-legacy']
-                }
+                loader: 'babel-loader'
             }
         ]
     },
@@ -36,14 +32,14 @@ module.exports = {
         }),
     ],
     externals: {
-        // Use external version of React
-        'react': 'React',
-        'react-dom': 'ReactDOM',
         'leaflet': 'L'
     },
     devServer: {
         hot: true,
-        port: 8080
+        port: 8080,
+        historyApiFallback: {
+            index: 'index.html'
+        }
     }
 
 };

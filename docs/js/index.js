@@ -2,24 +2,16 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import {App, Video, Timeline, Place, Person, Page} from './components';
 import {analytics} from './analytics';
-import {Router, Route, hashHistory} from 'react-router';
-import {createBrowserHistory} from 'history';
-
-let history = createBrowserHistory();
-
-history.listen(location => {
-  analytics.trackPageview(location.hash.replace('#', ''));
-});
+import {BrowserRouter as Router, Route} from "react-router-dom";
 
 let routing = (
-  <Router history={hashHistory}>
-    <Route path="/" component={App}>
-      <Route path="timeline" component={Timeline}/>
-      <Route path="video" component={Video}/>
-      <Route path="/place/:placeName" component={Place}/>
-      <Route path="/people/:personName" component={Person}/>
-      <Route path="/page/:pageName" component={Page} />
-    </Route>
+  <Router>
+    <Route path="/" exact  component={App} />
+    <Route path="/timeline" component={Timeline}/>
+    <Route path="/video" component={Video}/>
+    <Route path="/place/:placeName" component={Place}/>
+    <Route path="/people/:personName" component={Person}/>
+    <Route path="/page/:pageName" component={Page} />
   </Router>
 );
 

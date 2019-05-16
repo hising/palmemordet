@@ -1,8 +1,6 @@
 import React from 'react';
 
-export const Home = React.createClass({
-  render() {
-    return (
+export const Home = () => (
       <div className="starter-template">
         <h1>Palmemordet</h1>
         <img className="img-fluid d-block mx-auto" src="img/fantombilden.jpg" />
@@ -13,5 +11,3 @@ export const Home = React.createClass({
         <p><a href="https://github.com/hising/palmemordet">Läs mer på Github</a></p>
       </div>
     );
-  }
-});

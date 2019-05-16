@@ -1,7 +1,4 @@
-import {Link} from 'react-router';
+import React from 'react';
+import { Link } from 'react-router-dom';
 
-export const NavLink = React.createClass({
-  render() {
-    return <Link {...this.props} />
-  }
-});
+export const NavLink = ({to, props}) => <Link to={to} {...props} />;

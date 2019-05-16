@@ -3,7 +3,13 @@ import {observer} from 'mobx-react';
 import pageStore from '../stores/PageStore';
 
 @observer
-class Page extends React.Component {
+class Page extends React.PureComponent {
+
+
+  constructor(props, context) {
+    super(props, context);
+    console.log("adsfsdf");
+  }
 
   componentDidMount() {
     pageStore.loadPage(this.props.params.pageName);
